@@ -1,0 +1,12 @@
+---
+version: "3.9"
+
+services:
+  # --- Fraud Service --- #
+  structurizr:
+    container_name: system-architecture-structurizr
+    image: "structurizr/lite:latest"
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./model:/usr/local/structurizr:rw"
