@@ -8,6 +8,13 @@
     "shape" : "RoundedBox",
     "icon" : "https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/clojure-logo-64.png"
   } , {
+    "tag" : "Database",
+    "background" : "#EEECE6",
+    "color" : "#3f51d4",
+    "stroke" : "#3f51d4",
+    "shape" : "Cylinder",
+    "icon" : "https://static.structurizr.com/themes/amazon-web-services-2022.04.30/Arch_Amazon-RDS_48.png"
+  } , {
     "tag" : "AWS SageMaker",
     "background" : "#EEECE6",
     "stroke" : "#2d8f7a",
