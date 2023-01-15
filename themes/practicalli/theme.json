@@ -7,5 +7,11 @@
     "stroke" : "#5881D8",
     "shape" : "RoundedBox",
     "icon" : "https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/clojure-logo-64.png"
+  } , {
+    "tag" : "AWS SageMaker",
+    "background" : "#EEECE6",
+    "stroke" : "#2d8f7a",
+    "color" : "#2d8f7a",
+    "icon" : "https://static.structurizr.com/themes/amazon-web-services-2022.04.30/Arch_Amazon-SageMaker_48.png"
   } ]
 }
