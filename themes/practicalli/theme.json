@@ -2,8 +2,10 @@
   "name" : "Practicalli theme",
   "elements" : [ {
     "tag" : "Clojure Service",
-    "stroke" : "#62B132",
-    "color" : "#8FB5FE",
+    "background" : "#8FB5FE",
+    "color" : "#EEECE6",
+    "stroke" : "#5881D8",
+    "shape" : "RoundedBox",
     "icon" : "https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/clojure-logo-64.png"
   } ]
 }
