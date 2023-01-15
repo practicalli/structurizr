@@ -15,6 +15,9 @@
     "shape" : "Cylinder",
     "icon" : "https://static.structurizr.com/themes/amazon-web-services-2022.04.30/Arch_Amazon-RDS_48.png"
   } , {
+    "tag" : "Web Browser",
+    "shape" : "WebBrowser"
+  } , {
     "tag" : "AWS SageMaker",
     "background" : "#EEECE6",
     "stroke" : "#2d8f7a",
