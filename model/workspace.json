@@ -1,46 +1,324 @@
 {
   "id" : 1,
-  "name" : "Name",
-  "description" : "Description",
+  "name" : "Mock Fintech Startup",
+  "description" : "Practicalli Services",
   "revision" : 0,
-  "lastModifiedDate" : "2023-01-12T21:06:37Z",
+  "lastModifiedDate" : "2023-01-15T22:51:28Z",
   "lastModifiedAgent" : "structurizr-web/2892/diagram",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIKICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJTb2Z0d2FyZSBTeXN0ZW0iCgogICAgICAgIHVzZXIgLT4gc29mdHdhcmVTeXN0ZW0gIlVzZXMiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgc29mdHdhcmVTeXN0ZW0gIkRpYWdyYW0xIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQogICAgfQoKfQo="
+    "structurizr.dsl" : "LyoKICBQcmFjdGljYWxsaSBBcmNoaXRlY3R1cmUKKi8KCi8qIENvbnN0YW50IHZhbHVlcyAqLwohY29uc3RhbnQgT1JHQU5JU0FUSU9OX05BTUUgIlByYWN0aWNhbGxpIgohY29uc3RhbnQgR1JPVVBfTkFNRSAiRmludGVjaCIKCndvcmtzcGFjZSAiTW9jayBGaW50ZWNoIFN0YXJ0dXAiICJQcmFjdGljYWxsaSBTZXJ2aWNlcyIgIHsKCiAgbW9kZWwgewogICAgcHJhY3RpY2FsbGkgPSBlbnRlcnByaXNlICIke09SR0FOSVNBVElPTl9OQU1FfSAtICR7R1JPVVBfTkFNRX0iIHsKCiAgICAgIHVzZXIgPSBwZXJzb24gIlVzZXIiCgogICAgICByaXNrID0gc29mdHdhcmVTeXN0ZW0gIlJpc2siIHsKICAgICAgICBzaGFyZWRfc2VydmljZXMgPSBncm91cCAiU2hhcmVkIFNlcnZpY2VzIFJpc2siIHsKICAgICAgICAgIGNvbXBhbnlfaW5mbyA9IGNvbnRhaW5lciAiQ29tcGFueSBXaG9JcyIgIkNvbXBhbnkgc2VhcmNoIHNlcnZpY2UiICJDbG9qdXJlIEFQSSIgIkNsb2p1cmUgU2VydmljZSIKICAgICAgICAgIGNvbXBhbnlfaW5mb19kYXRhYmFzZSA9IGNvbnRhaW5lciAiQ29tcGFueSBXaG9JcyBkYXRhYmFzZSIgIiIgIlJlbGF0aW9uYWwgZGF0YWJhc2Ugc2NoZW1hIiAiRGF0YWJhc2UiCiAgICAgICAgICBjb21wYW55X2luZm9fc2VhcmNoID0gY29udGFpbmVyICJDb21wYW55IFNlYXJjaCBBZ2dyZWdhdG9yIiAiQ29tcGFueSBmdWxsLXRleHQgc2VhcmNoIGluZGV4IiAiRWxhc3RpYyBTZWFyY2ggU2VydmljZSIgIkVsYXN0aWMgU2VhcmNoIgogICAgICAgICAgcmlza19kYXRhX3Byb3ZpZGVycyA9IGNvbnRhaW5lciAiUmlzayBEYXRhIFByb3ZpZGVycyIgIkRhdGEgUHJvdmlkZXIgU2VydmljZSIgIkNsb2p1cmUgQVBJIiAiQ2xvanVyZSBTZXJ2aWNlZSIKICAgICAgICAgIHJpc2tfZGF0YV9wcm92aWRlcnNfZGF0YWJhc2UgPSBjb250YWluZXIgIlJpc2sgRGF0YSIgIkhpc3RvcmljIFJpc2sgUmVwb3J0cyIgIlJlbGF0aW9uYWwgZGF0YWJhc2Ugc2NoZW1hIiAiRGF0YWJhc2UiCiAgICAgICAgfQogICAgICAgIGNyZWRpdCA9IGdyb3VwICJDcmVkaXQgUmlzayIgewogICAgICAgICAgc2NvcmUgPSBjb250YWluZXIgIkNyZWRpdCByaXNrIHNjb3JpbmciICJTY29yaW5nIG9yZ2FuaXphdGlvbnMgQ3JlZGl0IFJpc2siICJSaXNrIFNjb3JlIiAiQ2xvanVyZSBTZXJ2aWNlZSIKICAgICAgICAgIHNjb3JlX2RhdGEgPSBjb250YWluZXIgIkNyZWRpdCBSaXNrIFNjb3JpbmcgU2VydmljZSBkYXRhYmFzZSIgIiIgIlJlbGF0aW9uYWwgZGF0YWJhc2Ugc2NoZW1hIiAiRGF0YWJhc2UiCiAgICAgICAgICBhc3Nlc3NtZW50ID0gY29udGFpbmVyICJDcmVkaXQgQXNzZXNzbWVudCIgIkNyZWRpdCByaXNrIGFzc2Vzc21lbnQgU2VydmljZSIgIkNsb2p1cmUgU2VydmljZWUiCiAgICAgICAgfQoKICAgICAgICBmcmF1ZCA9IGdyb3VwICJGcmF1ZCBSaXNrIiB7CiAgICAgICAgICBkZXRlY3Rpb24gPSBjb250YWluZXIgIkZyYXVkIFNlcnZpY2UiICJEZXRlY3QgZnJhdWR1bGVudCB0cmFuc2FjdGlvbnMgdmlhIEZyYXVkIFNjb3JpbmcgRGF0YSBTY2llbmNlIG1vZGVscyIgIkh0dHAta2l0ICYgUmVpdGl0IiAiQ2xvanVyZSBTZXJ2aWNlIgogICAgICAgICAgZGV0ZWN0aW9uX2RhdGEgPSBjb250YWluZXIgIkZyYXVkIERhdGFiYXNlIiAiSGlzdG9yaWMgRnJhdWQgZGV0ZWN0aW9uIGRhdGEiICJSZWxhdGlvbmFsIGRhdGFiYXNlIHNjaGVtYSIgIkRhdGFiYXNlIgogICAgICAgICAgbWxfbW9kZWwgPSBjb250YWluZXIgIkZyYXVkIE1vZGVscyIgIk1hY2hpbmUgbGVhcm5pbmcgbW9kZWwgc2VydmljZSIgIk1MIE1vZGVscyIgIkFXUyBTYWdlTWFrZXIiCiAgICAgICAgICBmZWF0dXJlX3N0b3JlX2RhdGEgPSBjb250YWluZXIgIkZlYXR1cmUgc3RvcmUiICJQcmUtY2FsY3VsYXRlZCBmZWF0dXJlIHZhbHVlcyIgIktleSB2YWx1ZSBkYXRhYmFzZSIgIkRhdGFiYXNlIgogICAgICAgICAgZmVhdHVyZV9zY2hlbWFfZGF0YSA9IGNvbnRhaW5lciAiRmVhdHVyZSBtYXBwaW5nIG1vZGVsL2VudGl0eSIgIiIgIktleSB2YWx1ZSBkYXRhYmFzZSIgIkRhdGFiYXNlIgogICAgICAgICAgbWFudWFsX3JldmlldyA9IGNvbnRhaW5lciAiUmV2aWV3IFRyYW5zYWN0aW9ucyIgIk1hbnVhbGx5IHJldmlldyB0cmFuc2FjdGlvbnMgZm9yIGZyYXVkIiAiIiAiV2ViQnJvd3NlciIKICAgICAgICB9CiAgICAgIH0KCiAgICAgIHRyYW5zYWN0aW9uID0gc29mdHdhcmVTeXN0ZW0gIlRyYW5zYWN0aW9uIiB7CiAgICAgICAgZ3VhcmRpYW4gPSBjb250YWluZXIgIlRyYW5zYWN0aW9uIEd1YXJkaWFuIiAiVHJhbnNhY3Rpb24gbW9uaXRvcmluZyBhbmQgdHJhbnNhY3Rpb24gU2NyZWVuaW5nIHNlcnZpY2UiICJDbG9qdXJlIEFQSSIgIkNsb2p1cmUgU2VydmljZSIKICAgICAgICBndWFyZGlhbl9kYXRhID0gY29udGFpbmVyICJUcmFuc2FjdGlvbiBHdWFyZGlhbiBEYXRhYmFzZSIgIkhpc3RvcmljIHRyYW5zYWN0aW9uIGRhdGEiICJSZWxhdGlvbmFsIGRhdGFiYXNlIHNjaGVtYSIgIkRhdGFiYXNlIgogICAgICAgIGxpbWl0ZXIgPSBjb250YWluZXIgIkxpbWl0ZXIiICJMaW1pdHMgU2VydmljZSIgIkNsb2p1cmUgS2Fma2EgU3RyZWFtIiAiQ2xvanVyZSBTZXJ2aWNlIgogICAgICB9CgogICAgLyogRGVmaW5lIFJlbGF0aW9uc2hpcHMgYmV0d2VlbiBjb21wb25lbnRzICovCiAgICB1c2VyIC0+IHRyYW5zYWN0aW9uICJUcmlnZ2VycyIKCiAgICB0cmFuc2FjdGlvbiAtPiByaXNrICJVc2VzIgogICAgZ3VhcmRpYW4gLT4gZ3VhcmRpYW5fZGF0YSAiUGVyc2lzdHMiCiAgICBndWFyZGlhbiAtPiBsaW1pdGVyICJVc2VzIgoKICAgIGRldGVjdGlvbiAtPiBkZXRlY3Rpb25fZGF0YSAiUmVhZHMgYW5kIHdyaXRlcyB0byIKICAgIGRldGVjdGlvbiAtPiBtbF9tb2RlbCAic2NvcmUgdHJhbnNhY3Rpb24iCiAgICBtbF9tb2RlbCAtPiBmZWF0dXJlX3N0b3JlX2RhdGEgIkNvbGxlY3QgZmVhdHVyZXMiCiAgICBtbF9tb2RlbCAtPiBmZWF0dXJlX3NjaGVtYV9kYXRhICJSZXF1ZXN0IGZlYXR1cmUgc2V0ICYgbW9kZWwiCgogICAgfQoKICAvKiBEZXBsb3ltZW50IC8gSW5mcmFzdHJ1Y3R1cmUgKi8KCiAgcHJvZHVjdGlvbiA9IGRlcGxveW1lbnRFbnZpcm9ubWVudCAiUHJvZHVjdGlvbiIgewogICAgYXdzID0gZGVwbG95bWVudE5vZGUgIkFtYXpvbiBXZWIgU2VydmljZXMiICIiICIiICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQ2xvdWQiIHsKICAgICAgcmVnaW9uID0gZGVwbG95bWVudE5vZGUgIlVTLUVhc3QtMSIgIiIgIiIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSZWdpb24iIHsKICAgICAgICByb3V0ZTUzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJSb3V0ZSA1MyIgIiIgIiIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSb3V0ZSA1MyIKICAgICAgICBlbGIgPSBpbmZyYXN0cnVjdHVyZU5vZGUgIkVsYXN0aWMgTG9hZCBCYWxhbmNlciIgIiIgIiIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFbGFzdGljIExvYWQgQmFsYW5jaW5nIgogICAgICAgIGF1dG9zY2FsaW5nR3JvdXAgPSBkZXBsb3ltZW50Tm9kZSAiQXV0b3NjYWxpbmcgZ3JvdXAiICIiICIiICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQXV0byBTY2FsaW5nIiB7CiAgICAgICAgICBlYzIgPSBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiIgIiIgIiIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiIHsKCiAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkZXRlY3Rpb24KICAgICAgICAgICAgZWxiIC0+IHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJkcyA9IGRlcGxveW1lbnROb2RlICJBbWF6b24gUkRTIiAiIiAiIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyIgewogICAgICAgICAgbXlzcWwgPSBkZXBsb3ltZW50Tm9kZSAiTXlTUUwiICIiICIiICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUkRTIE15U1FMIGluc3RhbmNlIiB7CiAgICAgICAgICAgIGRhdGFiYXNlSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkZXRlY3Rpb25fZGF0YQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByb3V0ZTUzIC0+IGVsYiAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgfQogICAgfQogIH0KIC8qIEVuZCBPZiBQcm9kdWN0aW9uIERlcGxveW1lbnQgRW52aXJvbm1lbnQgKi8KCiAgfQogIHZpZXdzIHsKICAgLyogT3ZlcmFsbCBzeXN0ZW0gKi8KICAgIHN5c3RlbUNvbnRleHQgcmlzayAiRW50ZXJwcmlzZVZpZXciICJQcmFjdGljYWxsaSBFbnRlcnByaXNlIEFwcGxpY2F0aW9uIiB7CiAgICAgIGluY2x1ZGUgKgogICAgICBhdXRvTGF5b3V0CiAgICB9CiAgIC8qIEVudGlyZSBSaXNrIHN5c3RlbSAqLwogICAgY29udGFpbmVyIHJpc2sgcmlza1ZpZXcgIkNvbXBsZXRlIFJpc2sgc3lzdGVtIiB7CiAgICAgIGluY2x1ZGUgKgogICAgICBhdXRvTGF5b3V0CiAgICB9CiAgICAvKiBWaWV3IG9mIHNoYXJlZF9zZXJ2aWNlcyBncm91cCBpbiByaXNrIHN5c3RlbSAqLwogICAgY29udGFpbmVyIHJpc2sgc2hhcmVkU2VydmljZXNWaWV3ICJTZXJ2aWNlcyBzaGFyZWQgYWNyb3NzIHRoZSBvcmdhbmlzYXRpb24iIHsKICAgICAgaW5jbHVkZSBzaGFyZWRfc2VydmljZXMKICAgICAgYXV0b0xheW91dAogICAgfQogICAgLyogVmlldyBvZiBmcmF1ZF9yaXNrIGdyb3VwIGluIHJpc2sgc3lzdGVtICovCiAgICBjb250YWluZXIgcmlzayBmcmF1ZFJpc2tWaWV3ICJGcmF1ZCBSaXNrIFNlcnZpY2VzIE9ubHkiIHsKICAgICAgaW5jbHVkZSBmcmF1ZAogICAgICBhdXRvTGF5b3V0CiAgICB9CiAgICAvKiBWaWV3IG9mIGNyZWRpdF9yaXNrIGdyb3VwIGluIHJpc2sgc3lzdGVtICovCiAgICBjb250YWluZXIgcmlzayBjcmVkaXRSaXNrVmlldyAiQ3JlZGl0IFJpc2sgU2VydmljZXMgb25seSIgewogICAgICBpbmNsdWRlIGNyZWRpdAogICAgICBhdXRvTGF5b3V0CiAgICB9CiAgICAvKiBWaWV3IG9mIGZyYXVkICYgc2hhcmVkX3NlcnZpY2VzIGdyb3VwIHdpdGhvdXQgY3JlZGl0ICovCiAgICBjb250YWluZXIgcmlzayBmcmF1ZFNoYXJlZFZpZXcgIkZyYXVkIGFuZCBzaGFyZWQgc2VydmljZXMiIHsKICAgICAgaW5jbHVkZSAqCiAgICAgIGV4Y2x1ZGUgY3JlZGl0CiAgICAgIGF1dG9MYXlvdXQKICAgIH0KICAgIGNvbnRhaW5lciB0cmFuc2FjdGlvbiB0cmFuc2FjdGlvblZpZXcgIkN1cnJlbnQgVHJhbnNhY3Rpb24gc3lzdGVtIiB7CiAgICAgIGluY2x1ZGUgKgogICAgICBhdXRvTGF5b3V0CiAgICB9CgogICAgZGVwbG95bWVudCByaXNrICJQcm9kdWN0aW9uIiAiQW1hem9uV2ViU2VydmljZXNEZXBsb3ltZW50IiB7CiAgICAgIGluY2x1ZGUgKgogICAgICBhdXRvbGF5b3V0IGxyCiAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgcm91dGU1MwogICAgICAgIGVsYgogICAgICAgIGF1dG9zY2FsaW5nR3JvdXAKICAgICAgICB3ZWJBcHBsaWNhdGlvbkluc3RhbmNlCiAgICAgICAgZGF0YWJhc2VJbnN0YW5jZQogICAgICB9CiAgICB9CgoKICAgIC8qIFRoZW1lIGZvciB2aWV3cyAqLwogICAgdGhlbWVzIGRlZmF1bHQgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjIuMDQuMzAvdGhlbWUuanNvbiBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcHJhY3RpY2FsbGkvc3RydWN0dXJpenIvbWFpbi90aGVtZXMvcHJhY3RpY2FsbGkvdGhlbWUuanNvbgoKICAgIGJyYW5kaW5nIHsKICAgICAgbG9nbyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vcHJhY3RpY2FsbGkvZ3JhcGhpYy1kZXNpZ24vbGl2ZS9sb2dvcy9wcmFjdGljYWxsaS1sb2dvLnBuZwogICAgfQogIH0KfQo="
   },
   "configuration" : { },
   "model" : {
+    "enterprise" : {
+      "name" : "Practicalli - Fintech"
+    },
     "people" : [ {
       "id" : "1",
       "tags" : "Element,Person",
       "name" : "User",
       "relationships" : [ {
-        "id" : "3",
+        "id" : "21",
         "tags" : "Relationship",
         "sourceId" : "1",
+        "destinationId" : "17",
+        "description" : "Triggers"
+      } ],
+      "location" : "Internal"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "17",
+      "tags" : "Element,Software System",
+      "name" : "Transaction",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "17",
         "destinationId" : "2",
         "description" : "Uses"
       } ],
-      "location" : "Unspecified"
-    } ],
-    "softwareSystems" : [ {
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "18",
+        "tags" : "Element,Container,Clojure Service",
+        "name" : "Transaction Guardian",
+        "description" : "Transaction monitoring and transaction Screening service",
+        "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "20",
+          "description" : "Uses"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "18",
+          "destinationId" : "19",
+          "description" : "Persists"
+        } ],
+        "technology" : "Clojure API",
+        "documentation" : { }
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container,Clojure Service",
+        "name" : "Limiter",
+        "description" : "Limits Service",
+        "technology" : "Clojure Kafka Stream",
+        "documentation" : { }
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container,Database",
+        "name" : "Transaction Guardian Database",
+        "description" : "Historic transaction data",
+        "technology" : "Relational database schema",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
       "id" : "2",
       "tags" : "Element,Software System",
-      "name" : "Software System",
-      "location" : "Unspecified",
+      "name" : "Risk",
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "name" : "Credit Assessment",
+        "description" : "Credit risk assessment Service",
+        "group" : "Credit Risk",
+        "technology" : "Clojure Servicee",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container,Database",
+        "name" : "Feature mapping model/entity",
+        "group" : "Fraud Risk",
+        "technology" : "Key value database",
+        "documentation" : { }
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container,Clojure Service",
+        "name" : "Company WhoIs",
+        "description" : "Company search service",
+        "group" : "Shared Services Risk",
+        "technology" : "Clojure API",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Clojure Servicee",
+        "name" : "Credit risk scoring",
+        "description" : "Scoring organizations Credit Risk",
+        "group" : "Credit Risk",
+        "technology" : "Risk Score",
+        "documentation" : { }
+      }, {
+        "id" : "14",
+        "tags" : "Element,Container,Database",
+        "name" : "Feature store",
+        "description" : "Pre-calculated feature values",
+        "group" : "Fraud Risk",
+        "technology" : "Key value database",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,Database",
+        "name" : "Company WhoIs database",
+        "group" : "Shared Services Risk",
+        "technology" : "Relational database schema",
+        "documentation" : { }
+      }, {
+        "id" : "12",
+        "tags" : "Element,Container,Database",
+        "name" : "Fraud Database",
+        "description" : "Historic Fraud detection data",
+        "group" : "Fraud Risk",
+        "technology" : "Relational database schema",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,WebBrowser",
+        "name" : "Review Transactions",
+        "description" : "Manually review transactions for fraud",
+        "group" : "Fraud Risk",
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container,AWS SageMaker",
+        "name" : "Fraud Models",
+        "description" : "Machine learning model service",
+        "relationships" : [ {
+          "id" : "28",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "15",
+          "description" : "Request feature set & model"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "14",
+          "description" : "Collect features"
+        } ],
+        "group" : "Fraud Risk",
+        "technology" : "ML Models",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,Clojure Servicee",
+        "name" : "Risk Data Providers",
+        "description" : "Data Provider Service",
+        "group" : "Shared Services Risk",
+        "technology" : "Clojure API",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,Database",
+        "name" : "Credit Risk Scoring Service database",
+        "group" : "Credit Risk",
+        "technology" : "Relational database schema",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,Database",
+        "name" : "Risk Data",
+        "description" : "Historic Risk Reports",
+        "group" : "Shared Services Risk",
+        "technology" : "Relational database schema",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,Elastic Search",
+        "name" : "Company Search Aggregator",
+        "description" : "Company full-text search index",
+        "group" : "Shared Services Risk",
+        "technology" : "Elastic Search Service",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Clojure Service",
+        "name" : "Fraud Service",
+        "description" : "Detect fraudulent transactions via Fraud Scoring Data Science models",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "12",
+          "description" : "Reads and writes to"
+        }, {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "13",
+          "description" : "score transaction"
+        } ],
+        "group" : "Fraud Risk",
+        "technology" : "Http-kit & Reitit",
+        "documentation" : { }
+      } ],
       "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "29",
+      "tags" : "Element,Deployment Node,Amazon Web Services - Cloud",
+      "name" : "Amazon Web Services",
+      "environment" : "Production",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "30",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Region",
+        "name" : "US-East-1",
+        "environment" : "Production",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "33",
+          "tags" : "Element,Deployment Node,Amazon Web Services - Auto Scaling",
+          "name" : "Autoscaling group",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "34",
+            "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+            "name" : "Amazon EC2",
+            "environment" : "Production",
+            "instances" : "1",
+            "containerInstances" : [ {
+              "id" : "35",
+              "tags" : "Container Instance",
+              "relationships" : [ {
+                "id" : "40",
+                "sourceId" : "35",
+                "destinationId" : "39",
+                "description" : "Reads and writes to",
+                "linkedRelationshipId" : "25"
+              } ],
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "11"
+            } ]
+          } ]
+        }, {
+          "id" : "37",
+          "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
+          "name" : "Amazon RDS",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "38",
+            "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
+            "name" : "MySQL",
+            "environment" : "Production",
+            "instances" : "1",
+            "containerInstances" : [ {
+              "id" : "39",
+              "tags" : "Container Instance",
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "12"
+            } ]
+          } ]
+        } ],
+        "infrastructureNodes" : [ {
+          "id" : "32",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Elastic Load Balancing",
+          "name" : "Elastic Load Balancer",
+          "relationships" : [ {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "32",
+            "destinationId" : "35",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Production"
+        }, {
+          "id" : "31",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
+          "name" : "Route 53",
+          "relationships" : [ {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "31",
+            "destinationId" : "32",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Production"
+        } ]
+      } ]
     } ]
   },
   "documentation" : { },
   "views" : {
     "systemContextViews" : [ {
       "softwareSystemId" : "2",
-      "key" : "Diagram1",
+      "description" : "Practicalli Enterprise Application",
+      "key" : "EnterpriseView",
       "order" : 1,
       "paperSize" : "A6_Portrait",
       "dimensions" : {
-        "width" : 866,
-        "height" : 1316
+        "width" : 1108,
+        "height" : 1558
       },
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -52,23 +330,430 @@
       },
       "enterpriseBoundaryVisible" : true,
       "relationships" : [ {
-        "id" : "3"
+        "id" : "22"
       } ],
       "elements" : [ {
-        "id" : "1",
-        "x" : 208,
-        "y" : 207
-      }, {
         "id" : "2",
-        "x" : 208,
-        "y" : 807
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "17",
+        "x" : 329,
+        "y" : 329
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "2",
+      "description" : "Credit Risk Services only",
+      "key" : "creditRiskView",
+      "order" : 5,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2816,
+        "height" : 1166
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "8",
+        "x" : 1933,
+        "y" : 433
+      }, {
+        "id" : "9",
+        "x" : 1183,
+        "y" : 433
+      }, {
+        "id" : "10",
+        "x" : 433,
+        "y" : 433
+      } ]
+    }, {
+      "softwareSystemId" : "2",
+      "description" : "Fraud Risk Services Only",
+      "key" : "fraudRiskView",
+      "order" : 4,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2066,
+        "height" : 2366
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1183,
+        "y" : 433
+      }, {
+        "id" : "12",
+        "x" : 433,
+        "y" : 1033
+      }, {
+        "id" : "13",
+        "x" : 1183,
+        "y" : 1033
+      }, {
+        "id" : "14",
+        "x" : 433,
+        "y" : 1633
+      }, {
+        "id" : "15",
+        "x" : 1183,
+        "y" : 1633
+      }, {
+        "id" : "16",
+        "x" : 433,
+        "y" : 433
+      } ]
+    }, {
+      "softwareSystemId" : "2",
+      "description" : "Fraud and shared services",
+      "key" : "fraudSharedView",
+      "order" : 6,
+      "paperSize" : "A2_Landscape",
+      "dimensions" : {
+        "width" : 5829,
+        "height" : 2366
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 4945,
+        "y" : 369
+      }, {
+        "id" : "12",
+        "x" : 4195,
+        "y" : 969
+      }, {
+        "id" : "13",
+        "x" : 4945,
+        "y" : 969
+      }, {
+        "id" : "3",
+        "x" : 3433,
+        "y" : 369
+      }, {
+        "id" : "14",
+        "x" : 4195,
+        "y" : 1569
+      }, {
+        "id" : "4",
+        "x" : 2683,
+        "y" : 369
+      }, {
+        "id" : "15",
+        "x" : 4945,
+        "y" : 1569
+      }, {
+        "id" : "5",
+        "x" : 1933,
+        "y" : 369
+      }, {
+        "id" : "16",
+        "x" : 4195,
+        "y" : 369
+      }, {
+        "id" : "6",
+        "x" : 1183,
+        "y" : 369
+      }, {
+        "id" : "7",
+        "x" : 433,
+        "y" : 369
+      } ]
+    }, {
+      "softwareSystemId" : "2",
+      "description" : "Complete Risk system",
+      "key" : "riskView",
+      "order" : 2,
+      "paperSize" : "A1_Landscape",
+      "dimensions" : {
+        "width" : 8091,
+        "height" : 2366
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "28"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 7208,
+        "y" : 433
+      }, {
+        "id" : "12",
+        "x" : 6458,
+        "y" : 1033
+      }, {
+        "id" : "13",
+        "x" : 7208,
+        "y" : 1033
+      }, {
+        "id" : "14",
+        "x" : 6458,
+        "y" : 1633
+      }, {
+        "id" : "15",
+        "x" : 7208,
+        "y" : 1633
+      }, {
+        "id" : "16",
+        "x" : 6458,
+        "y" : 433
+      }, {
+        "id" : "3",
+        "x" : 5695,
+        "y" : 433
+      }, {
+        "id" : "4",
+        "x" : 4945,
+        "y" : 433
+      }, {
+        "id" : "5",
+        "x" : 4195,
+        "y" : 433
+      }, {
+        "id" : "6",
+        "x" : 3445,
+        "y" : 433
+      }, {
+        "id" : "7",
+        "x" : 2695,
+        "y" : 433
+      }, {
+        "id" : "8",
+        "x" : 1933,
+        "y" : 433
+      }, {
+        "id" : "9",
+        "x" : 1183,
+        "y" : 433
+      }, {
+        "id" : "10",
+        "x" : 433,
+        "y" : 433
+      } ]
+    }, {
+      "softwareSystemId" : "2",
+      "description" : "Services shared across the organisation",
+      "key" : "sharedServicesView",
+      "order" : 3,
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4316,
+        "height" : 1166
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "3",
+        "x" : 3433,
+        "y" : 433
+      }, {
+        "id" : "4",
+        "x" : 2683,
+        "y" : 433
+      }, {
+        "id" : "5",
+        "x" : 1933,
+        "y" : 433
+      }, {
+        "id" : "6",
+        "x" : 1183,
+        "y" : 433
+      }, {
+        "id" : "7",
+        "x" : 433,
+        "y" : 433
+      } ]
+    }, {
+      "softwareSystemId" : "17",
+      "description" : "Current Transaction system",
+      "key" : "transactionView",
+      "order" : 7,
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1858,
+        "height" : 1558
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "24"
+      }, {
+        "id" : "23"
+      } ],
+      "elements" : [ {
+        "id" : "18",
+        "x" : 704,
+        "y" : 329
+      }, {
+        "id" : "19",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "20",
+        "x" : 1079,
+        "y" : 929
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "softwareSystemId" : "2",
+      "key" : "AmazonWebServicesDeployment",
+      "order" : 8,
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 3925,
+        "height" : 1816
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Production",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "29", "30", "31" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "32" ],
+        "relationships" : [ "41" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "33", "34", "35" ],
+        "relationships" : [ "36" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "37", "38", "39" ],
+        "relationships" : [ "40" ]
+      } ],
+      "relationships" : [ {
+        "id" : "36"
+      }, {
+        "id" : "40"
+      }, {
+        "id" : "41"
+      } ],
+      "elements" : [ {
+        "id" : "33",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "34",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "35",
+        "x" : 1933,
+        "y" : 875
+      }, {
+        "id" : "37",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "38",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "39",
+        "x" : 2833,
+        "y" : 875
+      }, {
+        "id" : "29",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "30",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "31",
+        "x" : 433,
+        "y" : 875
+      }, {
+        "id" : "32",
+        "x" : 1183,
+        "y" : 875
       } ]
     } ],
     "configuration" : {
-      "branding" : { },
+      "branding" : {
+        "logo" : "https://raw.githubusercontent.com/practicalli/graphic-design/live/logos/practicalli-logo.png"
+      },
       "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2022.04.30/theme.json", "https://raw.githubusercontent.com/practicalli/structurizr/main/themes/practicalli/theme.json" ],
       "terminology" : { },
-      "lastSavedView" : "Diagram1"
+      "lastSavedView" : "fraudSharedView"
     }
   }
 }
